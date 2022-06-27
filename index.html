@@ -1,46 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Landing Page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        <header>Header Logo</header>
-        <nav>
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </nav>
-        <div>This website is awesome</div>
-        <div>This website has some subtext that goes here under tht
-            main title. Its a smaller font and the color Is lOWe
-            contrast</div>
-        <img src="img.jpg" alt="air balloons">    
-        <button>Sign up</button>
-        <div>Some random information.</div>
-        <div>
-           <img src="card1.jpg">
-           <div>this is some subtext under an illustration or image</div> 
-           <img src="card2.jpg">
-           <div>this is some subtext under an illustration or image</divp> 
-           <img src="card3.jpg">
-           <div>this is some subtext under an illustration or image</div> 
-           <img src="card4.jpg">
-           <div>this is some subtext under an illustration or image</div> 
+<head>
+    <title>Landing Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<nav>
+    <h1>Header Logo</h1>
+    <p><a href="#">header link one</a></p>
+    <p><a href="#">header link two</a></p>
+    <p><a href="#">header link three</a></p>
+</nav>
+
+<div class="hero">
+   <div class="hero-item">
+    <p class="hero-main-txt">This website is awesome</p>
+    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+    <button class="no-border">Sign up</button>
+</div> 
+    <img src="img.jpg" class="img1">
+</div>
+
+<p class="info-header-txt">Some random information.</p>
+<div class="img-box">    
+   <div class="imgs">
+    <img src="card1.jpg" class="info-imgs">
+    <p>this is some subtext under an illustration or image</p>
+</div>   
+  <div class="imgs">
+    <img src="card2.jpg"  class="info-imgs">
+    <p>this is some subtext under an illustration or image</p>
+</div> 
+  <div class="imgs">
+    <img src="card3.jpg"  class="info-imgs">
+    <p>this is some subtext under an illustration or image</p>
+</div> 
+ <div class="imgs"> 
+    <img src="card4.jpg" class="info-imgs">
+    <p>this is some subtext under an illustration or image</p>
+  </div>  
+</div>
+
+<div class="quote">
+    <p><i>This is an inspiring quote, or a testimonial from a customer. Maybe it's just fillingup space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</i></p>
+    <p class="quoter"><b>-Thor, God of Thunder</b></p>
+</div>
+
+<div class="white-back">
+   <div class="blue-back">
+       <div class="lefties">
+    <p class="big-text" style="margin-bottom:1px"><b>Call to action! It's time!</b></p>
+    <p class="gray-text">Sign up for our product by clicking that button right over there!</p>
         </div>
-        <div>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div>-Thor, God of Thunder</div> 
-        <div>
-            <div>Call to action! It's time!</div>
-            <div>Sign up for our product by clicking that button right over there!</div>
-            <button>Sign up</button>
-        </div>
-        <footer>Copyright © The Odin Proiect 2021</footer>
-    </body>
+    <button id="white-border">Sign up</button>
+   </div>  
+</div>
+
+<footer>
+    <p>Copyright © The Odin Project 2021</p>
+</footer>
+
 </html>
-
-
